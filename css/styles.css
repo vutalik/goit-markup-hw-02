@@ -12,6 +12,7 @@
 .body {
     background-color: #F5F5F5;
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
 }
 .list {
 list-style: none;
