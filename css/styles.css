@@ -1,0 +1,47 @@
+.pages {
+    background-color: #F5F5F5;
+    color: #212121;
+}
+.list {
+list-style: none;
+}
+.logo-web {
+    color: #2196F3
+}
+.logo-studio{
+    color: #000000;
+}
+.site-nav .link
+ { 
+    color: #212121
+ }
+.site-nav .link:focus,
+.site-nav .link:hover
+ { 
+    color: #2196F3
+ }
+ .contact-nav .link{
+    color: #757575;
+ }
+ .contact-nav .link:focus,
+ .contact-nav .link:hover{
+    color: #2196F3
+ }
+ .main{
+    background: #2F303A;
+ }
+ .main, .text{
+    color: #ffffff;
+ }
+ 
+ .main, .launch{
+    color: #ffffff;
+ }
+ .advantage-list .description{
+    color: #757575;
+ }
+.comand-list .description{
+    color: #757575 
+}
+ 
+
