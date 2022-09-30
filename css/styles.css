@@ -1,47 +1,92 @@
-.pages {
+:root{
+   --primary-text-color: #212121;
+   --title-text-color:#757575;
+   --accent-color:#212121;
+   --secondary-color:#2196F3;
+   --tagline-text-color:#757575 ;
+   --primary-withe-color:#ffffff;
+   --button-color:#F5F4FA;
+
+}
+
+.body {
     background-color: #F5F5F5;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .list {
 list-style: none;
 }
+
 .logo-web {
-    color: #2196F3
+    color: var(--secondary-color);
 }
 .logo-studio{
     color: #000000;
 }
 .site-nav .link
  { 
-    color: #212121
+    color:var(--primary-text-color);
  }
 .site-nav .link:focus,
 .site-nav .link:hover
  { 
-    color: #2196F3
+   color:var(--secondary-color);
  }
+ .site-nav .link.current
+ { 
+   color:var(--secondary-color);
+ }
+ 
  .contact-nav .link{
-    color: #757575;
+    color: var(--title-text-color);
  }
  .contact-nav .link:focus,
  .contact-nav .link:hover{
-    color: #2196F3
+    color: var(--secondary-color);
  }
  .main{
     background: #2F303A;
  }
  .main, .text{
-    color: #ffffff;
+    color:  var(--primary-withe-color);
  }
  
  .main, .launch{
-    color: #ffffff;
+    color:  var(--primary-withe-color);
  }
- .advantage-list .description{
-    color: #757575;
- }
-.comand-list .description{
-    color: #757575 
+
+.main .button-primary{
+   color: #ffffff;
+   background-color: #2196F3;
 }
- 
+.list .button-secondary
+{
+   color: #212121;
+   background-color: #F5F4FA;
+}
+.list .button-secondary:focus,
+.list .button-secondary:hover
+ { 
+   color:var(--secondary-color);
+ }
+ .list .button-secondary.current
+ { 
+   color:var(--secondary-color);
+ }
+   
+ .advantage-list .description,
+ .comand-list .description,
+ .project .description
+ {
+    color: var(--tagline-text-color);
+ }
+
+ .footer{
+   background: #2F303A
+ }
+ .footer .logo-studio,
+ .footer .location
+ {
+   color: #ffffff;
+ }
 
