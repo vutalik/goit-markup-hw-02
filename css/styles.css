@@ -83,7 +83,7 @@
  .main, .launch{
    color:  var(--primary-withe-color);
  }
-/*кноптки портфоліо*/
+/* портфоліо*/
 .main .button-primary{
    color: #ffffff;
    background-color: #2196F3;
@@ -127,7 +127,7 @@
  { 
    color:var(--secondary-color);
  }
- .project .features{
+ .project .working-projects{
   font-weight: 700;
   font-size: 18px;
   line-height: 2.00;
