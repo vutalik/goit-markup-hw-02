@@ -127,12 +127,12 @@
  { 
    color:var(--secondary-color);
  }
- .project .working-projects{
+ .working-projects{
   font-weight: 700;
   font-size: 18px;
   line-height: 2.00;
   letter-spacing: 0.06em;
-  color: var(--accent-color);
+  color:var(--accent-color);
  }
  .project .description{
   font-weight: 400;
