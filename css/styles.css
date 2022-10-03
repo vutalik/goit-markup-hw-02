@@ -17,6 +17,7 @@
   text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
+  cursor: pointer;
 }
 .list {
   list-style: none;
@@ -84,7 +85,12 @@
    color:  var(--primary-withe-color);
  }
 /* портфоліо*/
-.main .button-primary{
+.portfolio-button{
+
+list-style: none;
+  
+}
+.button-primary{
    color: #ffffff;
    background-color: #2196F3;
    font-weight: 700;
@@ -94,38 +100,32 @@
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
+   cursor: pointer;
 }
 .button-secondary{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  background-color: #F5F4FA;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.list .button-secondary
-{
-  color: #212121;
-  background-color: #F5F4FA;
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1,62px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.list .button-secondary:focus,
-.list .button-secondary:hover
+.button-secondary:focus,
+.button-secondary:hover
  { 
    color:var(--secondary-color);
  }
- .list .button-secondary.current
+.button-secondary.current
  { 
    color:var(--secondary-color);
+ }
+ .project{
+  list-style: none;
  }
  .working-projects{
   font-weight: 700;
@@ -198,5 +198,8 @@
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
+}
+.footer .location:hover{
+  color:var(--secondary-color);
 }
 
