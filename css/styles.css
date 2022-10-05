@@ -8,10 +8,11 @@
    --button-color:#F5F4FA;
 }
 
-.pages 
+.body
 {
    color: var(--primary-text-color);
    font-family: Roboto, sans-serif;
+   margin: 0;
 }
 .button{
   text-decoration: none;
